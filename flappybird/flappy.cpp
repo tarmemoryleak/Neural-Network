@@ -78,6 +78,8 @@ int main(){
         }
         // วาดหน้าจอ
         std::cout << "\x1b[H"; // เอา system cls ออกแล้วใช้ ansi แทนเพื่อให้มันไม่กระพริบแม่งแสบตา
+        std::cout << "\x1b[1;" << (WIDTH - 12) << "H";
+        std::cout << "Score:" << score << " Best:" << highScore << "\n"; // เพิ่ม print การนับคะแนน และ high score แบบ real time
         for (int y = 0; y < HEIGHT; y++){
             for (int x = 0; x < WIDTH; x++){
                 if (x == BIRD_X && (int)birdY == y) {
