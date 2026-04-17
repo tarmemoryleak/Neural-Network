@@ -47,6 +47,7 @@ int main(){
     while (true){
         birdY = HEIGHT / 2.0; // ตำแหน่ง y
         velocity = 0.0f; // ความเร็ว
+        score = 0; // reset คะแนนใหม่หลังจาก restart ก่อนหน้านี้ลืม555
         running = true;
         Spawnpipe(); // เพิ่ม spawn pipe 
         system("cls");
