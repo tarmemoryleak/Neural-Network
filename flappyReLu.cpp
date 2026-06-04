@@ -173,10 +173,10 @@ int main(){
     
     system("cls");
     std::cout << "======================================\n";
-    std::cout << "    TAR-01 FLAPPY DEEP LEARNING 64    \n";
+    std::cout << "    TAR-01 FLAPPY DEEP LEARNING 256    \n";
     std::cout << "======================================\n\n";
     std::cout << " [1] HUMAN MODE\n";
-    std::cout << " [2] AI DEEP Q-NETWORK 64 NODES MODE\n\n";
+    std::cout << " [2] AI DEEP Q-NETWORK 256 NODES MODE\n\n";
     std::cout << " Select mode (press 1 or 2): ";
     //ไม่ใช้ using namespace std; เหมือนเดิม ถ้าใช้ using namespace std เป็น habit ที่ไม่ดีเท่าไหร่แต่ก็ใช้ได้แล้วแต่คนชอบ แต่ผมขอไม่ใช้
     while(true) {
